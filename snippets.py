@@ -47,15 +47,25 @@ def get(name):
     return answer[0]
     
 def catalog():
+    logging.debug("getting all key-message pairs with")
     with connection, connection.cursor() as cursor:
         cursor.execute("select * from snippets")
         allkeys=cursor.fetchall()
     logging.debug("All Keys retrieved successful")    
     return allkeys
     
-# def search(desc):
-#     with connection, connection.cursor()
-
+def search(desc):
+    newdesc='%'+desc+'%'
+    logging.debug("getting all key-message pairs with {!r} in the message".format(desc))
+    with connection, connection.cursor() as cursor:
+        cursor.execute('select * from snippets where message like {!r}'.format(newdesc))
+        matches=cursor.fetchall()
+        if matches==[]:
+            logging.debug("no matches in db")
+            return("no possible matches")
+    logging.debug("All matching keys returned succesfully")
+    return matches
+        
 def main():
     """Main function"""
     logging.info("Constructing parser")
@@ -77,7 +87,9 @@ def main():
     logging.debug("constructing a catalog subparser")
     catalog_parser = subparsers.add_parser("catalog", help="Returns all snippets")
     
-
+    logging.debug("constructing a search subparser")
+    search_parser = subparsers.add_parser("search", help ="Returns all snippets with the specified keyword")
+    search_parser.add_argument("desc", help ="enter a term to search for")
 
     arguments = parser.parse_args()
     #convert parsed arguments from Namespace to dictionary
@@ -92,6 +104,9 @@ def main():
         print("Retrieved snippet: {!r}".format(snippet))
     elif command == "catalog":
         snippet= catalog()
+        print("Retrieved snippets: {!r}".format(snippet))
+    elif command == "search":
+        snippet= search(**arguments)
         print("Retrieved snippets: {!r}".format(snippet))
         
 

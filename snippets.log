@@ -289,3 +289,128 @@ DEBUG:root:constructing a get subparser
 DEBUG:root:constructing a catalog subparser
 INFO:root:Storing snippet 'Test': 'This is a test'
 DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:All matching keys returned succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'add' in the message
+DEBUG:root:All matching keys returned succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'add' in the message
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'add' in the message
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'add' in the message
+DEBUG:root:All matching keys returned succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:All matching keys returned succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'take' in the message
+DEBUG:root:All matching keys returned succesfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'take' in the message
+DEBUG:root:no matches in db
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:constructing a get subparser
+DEBUG:root:constructing a catalog subparser
+DEBUG:root:constructing a search subparser
+DEBUG:root:getting all key-message pairs with 'remove' in the message
+DEBUG:root:All matching keys returned succesfully
